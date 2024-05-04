@@ -50,7 +50,6 @@ def verify_signature():
     try:
         verifier.verify(hash_object, signature)
         print("The message is authentic.")
-        print("The message is authentic.")
     except ValueError:
         print("The message is not authentic.")
 
